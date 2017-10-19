@@ -16,3 +16,7 @@ docker build -t dockerdemo/demotest .
 # run your docker
 docker run -p 8080:8080 dockerdemo/demotest 
 
+# stop your docker
+docker ps
+*copy CONTAINER_ID
+docker stop <*CONTINER_ID*>

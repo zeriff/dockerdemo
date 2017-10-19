@@ -1,9 +1,10 @@
 import { Router } from 'express';
 
-export default ({ config, db }) => {
+export default () => {
     var router = Router();
 
     router.route('/').get((req, res) => {
         res.json({ message: 'Dockertest' });
     });
+    return router;
 };
