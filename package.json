@@ -1,7 +1,7 @@
 {
   "name": "dockerdemo",
   "version": "0.3.0",
-  "description": "Starter project for an ES6 RESTful Express API",
+  "description": "docker demo",
   "main": "dist",
   "scripts": {
     "dev": "nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",
