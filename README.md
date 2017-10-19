@@ -9,11 +9,10 @@ PORT=8080 npm run dev
 
 # Start production server:
 PORT=8080 npm start
-cd express-es6-rest-api
 
 # Build your docker
-docker build -t es6/api-service .
+docker build -t dockerdemo/demotest .
 
 # run your docker
-docker run -p 8080:8080 es6/api-service
+docker run -p 8080:8080 dockerdemo/demotest 
 
